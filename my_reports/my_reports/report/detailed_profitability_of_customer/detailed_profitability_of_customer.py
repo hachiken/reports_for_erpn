@@ -7,7 +7,7 @@ from frappe import _
 
 def execute(filters=None):
 	columns = [
-		_("Customer") + ":Link/Cost Center:140",
+		_("Account") + ":Link/Account:140",
 #		_("Posting Date") + ":Date:100",
 		_("Amount") + ":Currency:100",]
 #		_("Expences") + ":Currency:100",
